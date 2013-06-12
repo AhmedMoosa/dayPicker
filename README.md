@@ -5,19 +5,18 @@ JQuery Plugin allows you to select day of week in Arabic and English , it depend
 
 Example :-
 
-   <link href="css/le-frog/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css" />
-    <!--<link href="css/smoothness/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />-->
-    <script src="js/jquery-1.9.1.js" type="text/javascript"></script>
-    <script src="js/dayPicker-Plugin.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $(".arday").dayPicker({ lang: 'ar' });
-            //for english week days 
-            $(".day").dayPicker({ lang: 'en' });
-        });
-    </script>
-
- <fieldset dir="rtl">
+      <link href="css/le-frog/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css" />
+       <!--<link href="css/smoothness/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />-->
+      <script src="js/jquery-1.9.1.js" type="text/javascript"></script>
+      <script src="js/dayPicker-Plugin.js" type="text/javascript"></script>
+      <script type="text/javascript">
+         $(document).ready(function () {
+               $(".arday").dayPicker({ lang: 'ar' });
+               //for english week days 
+               $(".day").dayPicker({ lang: 'en' });
+         });
+      </script>
+      <fieldset dir="rtl">
             <legend>إختبار إختيار اليوم من القائمة (الإسبوع بالعربية ) </legend>
             <div>
                 <table border="0" cellpadding="5" cellspacing="5">

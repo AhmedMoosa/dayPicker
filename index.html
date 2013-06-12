@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Daypicker : JQuery Plugin allows you to select day of week in Arabic and English , it depends on JQuerUI to get better format." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Daypicker</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/AhmedMoosa/dayPicker">View on GitHub</a>
+
+          <h1 id="project_title">Daypicker</h1>
+          <h2 id="project_tagline">JQuery Plugin allows you to select day of week in Arabic and English , it depends on JQuerUI to get better format.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/AhmedMoosa/dayPicker/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/AhmedMoosa/dayPicker/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="daypicker" class="anchor" href="#daypicker"><span class="octicon octicon-link"></span></a>dayPicker</h1>
+
+<p>JQuery Plugin allows you to select day of week in Arabic and English , it depends on JQuerUI to get better format.
+you can link your prefered JQuery UI Theme to get it for datePicker Plugin.</p>
+
+<p>Example :-</p>
+
+<pre><code>  &lt;link href="css/le-frog/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css" /&gt;
+   &lt;!--&lt;link href="css/smoothness/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" /&gt;--&gt;
+  &lt;script src="js/jquery-1.9.1.js" type="text/javascript"&gt;&lt;/script&gt;
+  &lt;script src="js/dayPicker-Plugin.js" type="text/javascript"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript"&gt;
+     $(document).ready(function () {
+           $(".arday").dayPicker({ lang: 'ar' });
+           //for english week days 
+           $(".day").dayPicker({ lang: 'en' });
+     });
+  &lt;/script&gt;
+  &lt;fieldset dir="rtl"&gt;
+        &lt;legend&gt;إختبار إختيار اليوم من القائمة (الإسبوع بالعربية ) &lt;/legend&gt;
+        &lt;div&gt;
+            &lt;table border="0" cellpadding="5" cellspacing="5"&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;
+                        من يوم
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;input type="text" name="name" class="arday" /&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;
+                        إلى يوم
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;input type="text" name="name" class="arday" /&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+    &lt;/fieldset&gt;
+
+    &lt;fieldset&gt;
+        &lt;legend&gt;Testing Day Picker Plugin (English Week)&lt;/legend&gt;
+        &lt;div&gt;
+            &lt;table border="0" cellpadding="5" cellspacing="5"&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;
+                        From Day
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;input type="text" name="name" class="day" /&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;
+                        To Day
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;input type="text" name="name" class="day" /&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+    &lt;/fieldset&gt;
+</code></pre>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Daypicker maintained by <a href="https://github.com/AhmedMoosa">AhmedMoosa</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
